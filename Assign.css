@@ -1,0 +1,116 @@
+
+
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(240, 231, 231);
+    text-align: center;
+    color: brown;
+    font-size: auto;
+    
+}
+.container{
+    display: flex;
+    position: relative;
+    border: 5px solid#a52a2a;
+    height: 300px;
+    width: 75%;
+    margin: 100px;
+    padding: 80px;
+}
+.layer1,
+.layer2,
+.layer3,
+.layer4 {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(185, 42, 42);
+    border-radius: 300px;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 0px 2px 4px rgb(101, 53, 53);
+    
+}
+.layer1 a,button{
+    border: 2px solid brown;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    background-color: aqua;
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.layer2 a,button {
+    border: 2px solid brown;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    background-color: aqua;
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.layer3 a,button {
+    border: 2px solid brown;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    background-color: aqua;
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.layer4 a,button {
+    border: 2px solid brown;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    background-color: #00ffff;
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.layer1 a:hover{
+    background: yellowgreen;
+    color: rgb(185, 84, 84);
+    width: 50px;
+}
+.layer2 a:hover{
+    background: yellowgreen;
+    color: rgb(185, 84, 84);
+    width: 50px;
+}
+.layer3 a:hover{
+    background: yellowgreen;
+    color: rgb(185, 84, 84);
+    width: 50px;
+}
+.layer4 a:hover{
+    background: yellowgreen;
+    color: rgb(185, 84, 84);
+    width: 50px;
+}
+.layer1 button:hover{
+        background: yellowgreen;
+        color: rgb(185, 84, 84);
+        width: 50px;
+}
+.layer2 button:hover{
+    background: yellowgreen;
+    color: rgb(185, 84, 84);
+    width: 50px;
+}
+.layer3 button:hover{
+    background: yellowgreen;
+    color: rgb(185, 84, 84);
+    width: 50px;
+}
+.layer4 button:hover{
+    background: yellowgreen;
+    color: rgb(185, 84, 84);
+    width: 50px;
+}
+
+
+
+
